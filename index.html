@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Information</title>
+</head>
+
+<body>
+    <form action="https://formsubmit.co/cgsomto@gmail.com" method="POST" enctype="multipart/form-data" target="_blank">
+        <input type="hidden" name="_captcha" value="true">
+        <!-- <input type="hidden" name="_name" value="https://http://127.0.0.1:5500/submit.html"> -->
+        <h1>Hale's Monthly Intensive Training Programme</h1>
+        <P>This is a monthly program designed to take young, vulnerable minds on a journey to mastery.<br>At Hale's we
+            don't
+            just up your skill, we transform you to a pace-setter in both knowledge and values.</P>
+        <fieldset>
+            <fieldset>
+                <legend>
+                    <h1>Personal Information</h1>
+                </legend>
+                <label for="first-name"><strong>First Name<span>*</span></strong></label>
+                <input type="text" name="name" placeholder="Enter your first name" required><br><br>
+
+                <label for="middle-name"><strong>Middle Name</strong><span>*</span></label>
+                <input type="text" name="name" placeholder="Enter your middle name" required><br><br>
+
+
+                <label for="last-name"><strong>Last Name</strong><span>*</span></label>
+                <input type="text" name="name" placeholder="Enter your last name" required><br><br>
+
+                <label for="email"><strong>Email</strong><span>*</span></label>
+                <input type="email" name="name" placeholder="email@gmail.com" required><br><br>
+
+                <label for="phone-number"><strong>Phone Number</strong><span>*</span></label>
+                <input type="tel" name="name" placeholder="+2347032459087" required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h1>Select Your Gender </h1>
+                </legend>
+                <label for="gender"><strong>Gender</strong><span>*</span></label><br><br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h1>What Skill(s) Do You Want To Learn?</h1>
+                </legend>
+                <label for="skills"><strong>Skills</strong><span>*</span></label><br><br>
+                <input type="checkbox" name="skill" value="1">Cyber-Security<br><br>
+                <input type="checkbox" name="skill" value="2">Software Development<br><br>
+                <input type="checkbox" name="skill" value="3">Graphic Designing<br><br>
+                <input type="checkbox" name="skill" value="4">Animation & Post-Production
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h1>How are you making Payments?</h1>
+                </legend>
+                <label for="payment"><strong>Payment Method<span>*</span></strong></label><br><br>
+                <select name="payment" id="payment" required>
+                    <option value="*" disabled selected>Select your Payment Method</option>
+                    <option value="bank transfer">Bank Transfer</option>
+                    <option value="cryptocurrency">Cryptocurrency</option>
+                    <option value="paypal">Paypal</option>
+                    <option value="debit cared">Debit Card</option>
+                    <option value="credit card">Credit Card</option>
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h1>Feedback</h1>
+                </legend>
+                <label for="feedback"><b>How Are You Feeling about "Hale?"</b></label><br>
+                <textarea name="feedback" id="feedback" required rows="8" cols="40"
+                    placeholder="What is on your mind?"></textarea>
+            </fieldset>
+        </fieldset>
+        <button>Register <a href="submit.html"></a></button>
+    </form>
+</body>
+</html>
